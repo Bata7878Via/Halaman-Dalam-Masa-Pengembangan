@@ -34,6 +34,26 @@
             color: #555;
             font-weight: 500;
             margin-top: 10px;
+            margin-bottom: 25px; /* Ditambah margin bawah agar ada jarak ke tombol */
+        }
+        
+        /* Style baru untuk Tombol Kembali */
+        .btn-kembali {
+            display: inline-block;
+            padding: 10px 24px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95em;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+        .btn-kembali:hover {
+            background-color: #0056b3;
+        }
+        .btn-kembali:active {
+            transform: scale(0.98);
         }
         
         /* Style Copyright */
@@ -55,7 +75,10 @@
     <p>Halaman yang Anda tuju saat ini sedang dalam masa pengembangan dan perbaikan. Mohon doa dan dukungan nya, silahkan kembali lagi nanti.!</p>
     
     <!-- Teks tambahan baru di bawah kalimat utama -->
-    <div class="by-team">By. Tim Ayam Madura &#x1F606</div>
+    <div class="by-team">By. Tim Ayam Madura &#x1F606;</div>
+
+    <!-- Tombol Kembali ke Menu Utama -->
+    <a href="index.html" class="btn-kembali">Kembali ke Menu Utama</a>
 </div>
 
 <!-- Hak Cipta di Pojok Kiri Bawah -->
